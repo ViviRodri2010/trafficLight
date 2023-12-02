@@ -10,3 +10,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.PALO{
+    margin-left: 30px;
+    height: 100px;
+    width: 10px;
+    background-color: black;
+}
+.lights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.light{
+    margin-top: 10px;
+    height: 60px;
+    /* width: 100%px; */
+}
+
+.red{
+    background-color: red;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.yellow{
+    background-color: yellow;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.green{
+    background-color: green;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#lit{
+    -webkit-box-shadow:0px 0px 105px 45px rgba(234,237,236,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(234,237,236,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(234,237,236,0.9);
+}
